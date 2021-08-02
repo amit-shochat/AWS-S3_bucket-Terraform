@@ -11,9 +11,9 @@ locals {
   main_security_group = "General security group"
   instance_type = "t2.micro"
   region_name = "us-east-2"
-  ssh_key_name = "klika"
-  #privet_ip = "91.197.62.78/32"
-  privet_ip = "77.125.200.36/32"
+  ssh_key_name = ""
+  #privet_ip = ""
+  privet_ip = ""
   s3_bucket = "im-alive-bucket"
   s3_bucket_tag = "Im-Alive-bucket"
   }
